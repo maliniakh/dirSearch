@@ -3,7 +3,7 @@ Simple showcase application, written according to TDD methodology. The applictio
 It comes with _search.sh_ shell script file. 
 
 The application makes use of the following tools / libraries:
-* Filesystem API (traversing directories, matching files) introduced in Java 7 
+* java.nio.* package (traversing directories, matching files) introduced in Java 7 
 * Maven
 * JUnit
 * Mockito
