@@ -1,3 +1,5 @@
 #!/bin/bash
-# todo: jak nie ma pliku to mvn install odpalic
+if [ ! -f target/dirSearch-1.0-SNAPSHOT.jar ]; then
+    mvn install
+fi
 java -jar target/dirSearch-1.0-SNAPSHOT.jar $@

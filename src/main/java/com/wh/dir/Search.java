@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 /**
- * info ze java 7 ma wbudowane filtry
  */
 public class Search {
 
