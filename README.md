@@ -8,7 +8,10 @@ If there is a need to: <br/>
 _chmod +x search.sh_
 
 Type from CLI:<br/>
-_./search.sh_ to display usage.
+_./search.sh_ to display usage.<br/><br/>
+The script takes care of building, i.e. if there is no jar file, _mvn install_ command is run.
+
+
 
 #### Requirements
 
